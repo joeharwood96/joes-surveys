@@ -1,0 +1,117 @@
+body {
+    margin-left: 15%;
+    margin-right: 15%;
+}
+
+#logo {
+    display: block;
+    margin-left: 30%;
+    width: 50%;
+}
+
+nav ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    background-color: #333;
+}
+
+nav li {
+    float: left;
+}
+
+nav li a {
+    display: block;
+    color: white;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+    font-family: Arial Rounded MT Bold;
+}
+
+nav li a:hover {
+    background-color: #111;
+    color: white;
+    text-decoration: none;
+}
+
+h1 {
+    text-align: center;
+    color: #333;
+    font-family: Caveat;
+}
+
+h2 {
+    color: #333;
+    font-family: Caveat;
+}
+
+h3 {
+    color: #333;
+    font-family: Caveat;
+}
+
+.container {
+    width: 60%;
+}
+
+textarea {
+    resize: none;
+    background-color: #f1f1f1;
+    width: 90%;
+    border: none;
+    color: black;
+    padding: 16px 32px;
+    text-decoration: none;
+    margin: 4px 2px;
+    cursor: pointer;
+    font-family: Arial Rounded MT Bold;
+    font-size: 20px;
+    border-radius: 25px;
+ }
+
+
+
+button 
+{
+    background-color: #333;
+    width: 20%;
+    border: none;
+    color: white;
+    padding: 16px 32px;
+    text-decoration: none;
+    margin: 4px 2px;
+    cursor: pointer;
+    font-family: Arial Rounded MT Bold;
+    font-size: 20px;
+    border-radius: 25px;
+}
+
+button a {
+    text-decoration: none;
+}
+
+button a:visited {
+    color: white;
+}
+
+.edit{
+    background-color: orange;
+}
+
+.delete {
+    background-color: red;
+}
+
+.card {
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+    max-width: 300px;
+    margin: auto;
+    text-align: center;
+    font-family: arial;
+  }
+
+#delete {
+    width: 78px;
+}
